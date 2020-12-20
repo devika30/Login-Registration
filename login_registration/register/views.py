@@ -7,9 +7,13 @@ def register(response):
         form=RegisterForm(response.POST)
         if form.is_valid():
             form.save()
+            return redirect("/")
     else:
         form=RegisterForm()
     context={
         'form':form
     }
     return render(response,"register/register.html",context)
+
+def logout(request):
+    return render(request,"registration/logout.html")
