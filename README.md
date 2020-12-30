@@ -1,6 +1,4 @@
-## A Django boilerplate with User Registeration and Login functionality.
-#### For GUI HTML,CSS,BOOTSTRAP is used.
+## User Authentication Boilerplate for Django
+#### Frontend :  HTML5, CSS3, Bootstrap
+#### Backend :  Django
 #### Custom forms are built with help of Javascript.
-
-
-
